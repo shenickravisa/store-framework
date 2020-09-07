@@ -1,0 +1,44 @@
+/* .{CSSHandle} {
+    {PropriedadeDeCSS}: {ValorDesejado};
+    {PropriedadeDeCSS}: {ValorDesejado};
+} */
+
+/* .{CSSHandle}--{blockClass} {
+    {PropriedadeDeCSS}: {ValorDesejado};
+    {PropriedadeDeCSS}: {ValorDesejado};
+} */
+
+.infoCardHeadline {
+    /* font-family: serif;
+    font-size: 2.25rem;
+    font-weight: normal;
+    color: gray;
+    border: 2px solid black;
+    padding: 24px; */
+    color: black;
+    font-weight: bold;
+}
+
+.infoCardCallActionContainer :global(.vtex-button) {
+    color: white;
+    background-color: gray;
+    border: transparent;
+}
+
+.infoCardCallActionContainer :global(.vtex-button):hover {
+    background-color: white;
+}
+
+.infoCardContainer--vintage {
+    background-color: #EDCFD1
+  }
+.infoCardContainer--metal {
+    background-color: #e1e1e1
+  }
+
+.infoCardContainer {
+    max-width: 1260px;
+    margin: 0 auto;
+    padding: 0;
+}
+
