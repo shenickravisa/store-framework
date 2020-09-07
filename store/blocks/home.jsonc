@@ -1,12 +1,11 @@
 {
   "store.home": {
-    "blocks": [
-      "rich-text"
-    ]
+    "blocks": ["rich-text"]
   },
   "rich-text": {
     "props": {
-      "text": "*Hello, World! by shenick*"
+      "text": "**Hello, World!**",
+      "textPosition": "RIGHT"
     }
   }
 }
