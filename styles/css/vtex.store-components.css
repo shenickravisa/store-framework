@@ -5,7 +5,7 @@
 }
 
 .infoCardContainer--vintage {
-    background-color: #EDCFD1;
+    background-color: #edcfd1;
 }
 
 .infoCardContainer--metal {
@@ -19,4 +19,16 @@
     color: black;
     border: 2px solid black;
     padding: 24px;
+}
+
+.infoCardCallActionContainer :global(.vtex-button) {
+    color: white;
+    background-color: gray;
+    border: transparent;
+}
+
+.infoCardCallActionContainer :global(.vtex-button):hover {
+    color: gray;
+    background-color: white;
+    border: transparent;
 }
